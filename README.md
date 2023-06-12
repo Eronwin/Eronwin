@@ -4,9 +4,20 @@
 </p> -->
 
 
-<!-- 
-<h1 align="center">Hi 👋, I'm Eronwin</h1> -->
+<p>
+  <a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@:Eronwin"></a>
+</p>
+
+<h1 align="center">Hi 👋, I'm Eronwin</h1>
 <h3 align="center">"毕竟几人真得鹿，不知终日梦为鱼"</h3>
 
-<a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&count_private=true" height="180" /></a> <a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&langs_count=8&hide=html,css&layout=compact" height="180" /></a>
-<a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&count_private=true" height="180" /></a> <a href="https://github.com/dianhsu"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&layout=compact" height="180" /></a>
+
+![Github Stats](https://github-readme-stats.vercel.app/api?username=Eronwin&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&theme=cobalt)](https://github.com/Eronwin/github-readme-stats)
+
+
+<!-- ### :sparkles: My Followers
+
+![Metrics](https://metrics.lecoq.io/Eronwin?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&people=1&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.shuffle=false&config.timezone=Asia%2FShanghai)
+ -->
