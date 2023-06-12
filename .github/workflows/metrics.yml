@@ -34,7 +34,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: itgoyo
+          user: Eronwin
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
