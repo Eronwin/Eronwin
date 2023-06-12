@@ -9,4 +9,4 @@
 <h3 align="center">"毕竟几人真得鹿，不知终日梦为鱼"</h3>
 
 <a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&count_private=true" height="180" /></a> <a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&langs_count=8&hide=html,css&layout=compact" height="180" /></a>
-<a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&count_private=true" height="180" /></a> <a href="https://github.com/dianhsu"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dianhsu&langs_count=8&hide=html,css&layout=compact" height="180" /></a>
+<a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&count_private=true" height="180" /></a> <a href="https://github.com/dianhsu"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&langs_count=8&hide=html,css&layout=compact" height="180" /></a>
