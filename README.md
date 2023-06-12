@@ -9,15 +9,8 @@
 <h3 align="center">"毕竟几人真得鹿，不知终日梦为鱼"</h3>
 
 
+![Github Stats](https://github-readme-stats.vercel.app/api?username=Eronwin&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&theme=cobalt)](https://github.com/Eronwin/github-readme-stats)
 
-
-
-<p align="center">
- ![Github Stats](https://github-readme-stats.vercel.app/api?username=Eronwin&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&theme=cobalt)](https://github.com/Eronwin/github-readme-stats)
-</p>
-<!-- ### :sparkles: My Followers
-
-![Metrics](https://metrics.lecoq.io/Eronwin?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&people=1&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.shuffle=false&config.timezone=Asia%2FShanghai)
- -->
+<a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api?username=Eronwin&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&count_private=true" height="180" /></a> <a href="https://github.com/Eronwin"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eronwin&theme=cobalt&layout=compact" height="180" /></a>
