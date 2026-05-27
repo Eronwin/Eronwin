@@ -27,6 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
           GITHUB_USERNAME: eronwin
           WEEK_COUNT: 12
+          STREAK_LOOKBACK_WEEKS: 16
 
       - name: Commit chart
         run: |

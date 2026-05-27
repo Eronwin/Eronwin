@@ -1,6 +1,6 @@
 const username = process.env.GITHUB_USERNAME || "eronwin";
 const weekCount = Number(process.env.WEEK_COUNT || 12);
-const streakLookbackWeeks = Number(process.env.STREAK_LOOKBACK_WEEKS || 104);
+const streakLookbackWeeks = Number(process.env.STREAK_LOOKBACK_WEEKS || 16);
 const token = process.env.GITHUB_TOKEN;
 
 if (!token) {
@@ -9,7 +9,7 @@ if (!token) {
 
 const now = new Date();
 const from = new Date(now);
-from.setUTCDate(from.getUTCDate() - streakLookbackWeeks * 7 - 7);
+from.setUTCDate(from.getUTCDate() - streakLookbackWeeks * 7);
 
 const query = `
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -126,7 +126,7 @@ const bars = weeks.map((week, index) => {
 }).join("");
 
 const firstLabel = formatDate(weeks[0]?.firstDay || now.toISOString().slice(0, 10));
-const lastLabel = formatDate(weeks.at(-1)?.firstDay || now.toISOString().slice(0, 10));
+const lastLabel = formatDate(now.toISOString().slice(0, 10));
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent ${weekCount} Weeks Contributions</title>
@@ -139,7 +139,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" vi
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent ${weekCount} Weeks</text>
-  <text x="32" y="62" class="subtitle">Current weekly streak: ${currentWeeklyStreak} weeks · ${total} contributions · ${firstLabel} - ${lastLabel}</text>
+  <text x="32" y="62" class="subtitle">${currentWeeklyStreak}-week current streak · last ${weekCount} shown · ${total} contributions · ${firstLabel} - ${lastLabel}</text>
   <line x1="${chart.x}" y1="${chart.y}" x2="${chart.x + chart.width}" y2="${chart.y}" class="grid" />
   <line x1="${chart.x}" y1="${chart.y + chart.height / 2}" x2="${chart.x + chart.width}" y2="${chart.y + chart.height / 2}" class="grid" />
   <line x1="${chart.x}" y1="${chart.y + chart.height}" x2="${chart.x + chart.width}" y2="${chart.y + chart.height}" class="grid" />
