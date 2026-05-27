@@ -1,5 +1,6 @@
 const username = process.env.GITHUB_USERNAME || "eronwin";
 const weekCount = Number(process.env.WEEK_COUNT || 12);
+const streakLookbackWeeks = Number(process.env.STREAK_LOOKBACK_WEEKS || 104);
 const token = process.env.GITHUB_TOKEN;
 
 if (!token) {
@@ -8,7 +9,7 @@ if (!token) {
 
 const now = new Date();
 const from = new Date(now);
-from.setUTCDate(from.getUTCDate() - weekCount * 7 - 7);
+from.setUTCDate(from.getUTCDate() - streakLookbackWeeks * 7 - 7);
 
 const query = `
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -53,12 +54,28 @@ if (payload.errors?.length) {
   throw new Error(payload.errors.map((error) => error.message).join("; "));
 }
 
-const weeks = payload.data.user.contributionsCollection.contributionCalendar.weeks
+const allWeeks = payload.data.user.contributionsCollection.contributionCalendar.weeks
   .map((week) => ({
     firstDay: week.firstDay,
     count: week.contributionDays.reduce((sum, day) => sum + day.contributionCount, 0),
-  }))
-  .slice(-weekCount);
+  }));
+
+const weeks = allWeeks.slice(-weekCount);
+
+const getCurrentWeeklyStreak = (items) => {
+  let streak = 0;
+
+  for (let index = items.length - 1; index >= 0; index -= 1) {
+    if (items[index].count === 0) {
+      break;
+    }
+    streak += 1;
+  }
+
+  return streak;
+};
+
+const currentWeeklyStreak = getCurrentWeeklyStreak(allWeeks);
 
 const total = weeks.reduce((sum, week) => sum + week.count, 0);
 const max = Math.max(...weeks.map((week) => week.count), 1);
@@ -113,7 +130,7 @@ const lastLabel = formatDate(weeks.at(-1)?.firstDay || now.toISOString().slice(0
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent ${weekCount} Weeks Contributions</title>
-  <desc id="desc">${total} GitHub contributions from ${firstLabel} to ${lastLabel}, grouped by week.</desc>
+  <desc id="desc">${total} GitHub contributions from ${firstLabel} to ${lastLabel}, grouped by week. Current weekly streak is ${currentWeeklyStreak} weeks.</desc>
   <style>
     .title { fill: #c0caf5; font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .subtitle { fill: #7dcfff; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -122,7 +139,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" vi
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent ${weekCount} Weeks</text>
-  <text x="32" y="62" class="subtitle">${total} contributions · grouped by week · ${firstLabel} - ${lastLabel}</text>
+  <text x="32" y="62" class="subtitle">Current weekly streak: ${currentWeeklyStreak} weeks · ${total} contributions · ${firstLabel} - ${lastLabel}</text>
   <line x1="${chart.x}" y1="${chart.y}" x2="${chart.x + chart.width}" y2="${chart.y}" class="grid" />
   <line x1="${chart.x}" y1="${chart.y + chart.height / 2}" x2="${chart.x + chart.width}" y2="${chart.y + chart.height / 2}" class="grid" />
   <line x1="${chart.x}" y1="${chart.y + chart.height}" x2="${chart.x + chart.width}" y2="${chart.y + chart.height}" class="grid" />
