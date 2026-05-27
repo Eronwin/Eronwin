@@ -1,0 +1,39 @@
+name: Weekly Contributions
+
+on:
+  schedule:
+    # GitHub cron uses UTC. 22:30 UTC is 06:30 in Asia/Shanghai.
+    - cron: "30 22 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  weekly-contributions:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate weekly contribution chart
+        run: node .github/scripts/generate-weekly-contributions.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
+          GITHUB_USERNAME: eronwin
+          WEEK_COUNT: 12
+
+      - name: Commit chart
+        run: |
+          if [ -n "$(git status --porcelain weekly-contributions.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add weekly-contributions.svg
+            git commit -m "Update weekly-contributions.svg - [skip ci]"
+            git push
+          fi
