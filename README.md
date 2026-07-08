@@ -15,7 +15,3 @@
 <p align="center">
   <img src="/streak-stats.svg" alt="GitHub Streak" />
 </p>
-
-<p align="center">
-  <img src="/weekly-contributions.svg" alt="Recent 12 weeks contributions" width="100%" />
-</p>
