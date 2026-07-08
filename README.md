@@ -13,7 +13,7 @@
 ## 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=eronwin&theme=tokyonight&hide_border=true&mode=daily&starting_year=2026&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
+  <img src="/streak-stats.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">
