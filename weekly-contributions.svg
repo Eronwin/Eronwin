@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent 12 Weeks Contributions</title>
-  <desc id="desc">2087 GitHub contributions from 5/3 to 7/25, grouped by week. Current weekly streak is 17 weeks.</desc>
+  <desc id="desc">2124 GitHub contributions from 5/10 to 7/26, grouped by week. Current weekly streak is 17 weeks.</desc>
   <style>
     .title { fill: #c0caf5; font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .subtitle { fill: #7dcfff; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -9,69 +9,69 @@
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent 12 Weeks</text>
-  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2087 contributions · 5/3 - 7/25</text>
+  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2124 contributions · 5/10 - 7/26</text>
   <line x1="48" y1="82" x2="772" y2="82" class="grid" />
   <line x1="48" y1="137" x2="772" y2="137" class="grid" />
   <line x1="48" y1="192" x2="772" y2="192" class="grid" />
   
     <g>
-      <title>W18 (5/3): 107 contributions</title>
-      <rect x="62.5" y="163.8" width="31.4" height="28.2" rx="6" fill="#9ece6a" />
-      <text x="78.2" y="218" text-anchor="middle" class="axis">W18</text>
-    </g>
-    <g>
       <title>W19 (5/10): 210 contributions</title>
-      <rect x="122.8" y="136.7" width="31.4" height="55.3" rx="6" fill="#2ac3de" />
-      <text x="138.5" y="218" text-anchor="middle" class="axis">W19</text>
+      <rect x="62.5" y="136.7" width="31.4" height="55.3" rx="6" fill="#2ac3de" />
+      <text x="78.2" y="218" text-anchor="middle" class="axis">W19</text>
     </g>
     <g>
       <title>W20 (5/17): 182 contributions</title>
-      <rect x="183.1" y="144.1" width="31.4" height="47.9" rx="6" fill="#9ece6a" />
-      <text x="198.8" y="218" text-anchor="middle" class="axis">W20</text>
+      <rect x="122.8" y="144.1" width="31.4" height="47.9" rx="6" fill="#9ece6a" />
+      <text x="138.5" y="218" text-anchor="middle" class="axis">W20</text>
     </g>
     <g>
       <title>W21 (5/24): 388 contributions</title>
-      <rect x="243.5" y="89.9" width="31.4" height="102.1" rx="6" fill="#7aa2f7" />
-      <text x="259.2" y="218" text-anchor="middle" class="axis">W21</text>
+      <rect x="183.1" y="89.9" width="31.4" height="102.1" rx="6" fill="#7aa2f7" />
+      <text x="198.8" y="218" text-anchor="middle" class="axis">W21</text>
     </g>
     <g>
       <title>W22 (5/31): 199 contributions</title>
-      <rect x="303.8" y="139.6" width="31.4" height="52.4" rx="6" fill="#2ac3de" />
-      <text x="319.5" y="218" text-anchor="middle" class="axis">W22</text>
+      <rect x="243.5" y="139.6" width="31.4" height="52.4" rx="6" fill="#2ac3de" />
+      <text x="259.2" y="218" text-anchor="middle" class="axis">W22</text>
     </g>
     <g>
       <title>W23 (6/7): 69 contributions</title>
-      <rect x="364.1" y="173.8" width="31.4" height="18.2" rx="6" fill="#414868" />
-      <text x="379.8" y="218" text-anchor="middle" class="axis">W23</text>
+      <rect x="303.8" y="173.8" width="31.4" height="18.2" rx="6" fill="#414868" />
+      <text x="319.5" y="218" text-anchor="middle" class="axis">W23</text>
     </g>
     <g>
       <title>W24 (6/14): 6 contributions</title>
-      <rect x="424.5" y="184.0" width="31.4" height="8.0" rx="6" fill="#414868" />
-      <text x="440.2" y="218" text-anchor="middle" class="axis">W24</text>
+      <rect x="364.1" y="184.0" width="31.4" height="8.0" rx="6" fill="#414868" />
+      <text x="379.8" y="218" text-anchor="middle" class="axis">W24</text>
     </g>
     <g>
       <title>W25 (6/21): 418 contributions</title>
-      <rect x="484.8" y="82.0" width="31.4" height="110.0" rx="6" fill="#7aa2f7" />
-      <text x="500.5" y="218" text-anchor="middle" class="axis">W25</text>
+      <rect x="424.5" y="82.0" width="31.4" height="110.0" rx="6" fill="#7aa2f7" />
+      <text x="440.2" y="218" text-anchor="middle" class="axis">W25</text>
     </g>
     <g>
       <title>W26 (6/28): 209 contributions</title>
-      <rect x="545.1" y="137.0" width="31.4" height="55.0" rx="6" fill="#2ac3de" />
-      <text x="560.8" y="218" text-anchor="middle" class="axis">W26</text>
+      <rect x="484.8" y="137.0" width="31.4" height="55.0" rx="6" fill="#2ac3de" />
+      <text x="500.5" y="218" text-anchor="middle" class="axis">W26</text>
     </g>
     <g>
       <title>W27 (7/5): 64 contributions</title>
-      <rect x="605.5" y="175.2" width="31.4" height="16.8" rx="6" fill="#414868" />
-      <text x="621.2" y="218" text-anchor="middle" class="axis">W27</text>
+      <rect x="545.1" y="175.2" width="31.4" height="16.8" rx="6" fill="#414868" />
+      <text x="560.8" y="218" text-anchor="middle" class="axis">W27</text>
     </g>
     <g>
       <title>W28 (7/12): 197 contributions</title>
-      <rect x="665.8" y="140.2" width="31.4" height="51.8" rx="6" fill="#2ac3de" />
-      <text x="681.5" y="218" text-anchor="middle" class="axis">W28</text>
+      <rect x="605.5" y="140.2" width="31.4" height="51.8" rx="6" fill="#2ac3de" />
+      <text x="621.2" y="218" text-anchor="middle" class="axis">W28</text>
     </g>
     <g>
-      <title>W29 (7/19): 38 contributions</title>
-      <rect x="726.1" y="182.0" width="31.4" height="10.0" rx="6" fill="#414868" />
-      <text x="741.8" y="218" text-anchor="middle" class="axis">W29</text>
+      <title>W29 (7/19): 39 contributions</title>
+      <rect x="665.8" y="181.7" width="31.4" height="10.3" rx="6" fill="#414868" />
+      <text x="681.5" y="218" text-anchor="middle" class="axis">W29</text>
+    </g>
+    <g>
+      <title>W30 (7/26): 143 contributions</title>
+      <rect x="726.1" y="154.4" width="31.4" height="37.6" rx="6" fill="#9ece6a" />
+      <text x="741.8" y="218" text-anchor="middle" class="axis">W30</text>
     </g>
 </svg>
