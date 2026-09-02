@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent 12 Weeks Contributions</title>
-  <desc id="desc">2274 GitHub contributions from 6/14 to 9/1, grouped by week. Current weekly streak is 17 weeks.</desc>
+  <desc id="desc">2374 GitHub contributions from 6/14 to 9/2, grouped by week. Current weekly streak is 17 weeks.</desc>
   <style>
     .title { fill: #c0caf5; font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .subtitle { fill: #7dcfff; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -9,7 +9,7 @@
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent 12 Weeks</text>
-  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2274 contributions · 6/14 - 9/1</text>
+  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2374 contributions · 6/14 - 9/2</text>
   <line x1="48" y1="82" x2="772" y2="82" class="grid" />
   <line x1="48" y1="137" x2="772" y2="137" class="grid" />
   <line x1="48" y1="192" x2="772" y2="192" class="grid" />
@@ -70,8 +70,8 @@
       <text x="681.5" y="218" text-anchor="middle" class="axis">W34</text>
     </g>
     <g>
-      <title>W35 (8/30): 58 contributions</title>
-      <rect x="726.1" y="177.4" width="31.4" height="14.6" rx="6" fill="#414868" />
+      <title>W35 (8/30): 158 contributions</title>
+      <rect x="726.1" y="152.2" width="31.4" height="39.8" rx="6" fill="#9ece6a" />
       <text x="741.8" y="218" text-anchor="middle" class="axis">W35</text>
     </g>
 </svg>
