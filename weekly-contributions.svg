@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent 12 Weeks Contributions</title>
-  <desc id="desc">2174 GitHub contributions from 8/9 to 10/26, grouped by week. Current weekly streak is 17 weeks.</desc>
+  <desc id="desc">2340 GitHub contributions from 8/9 to 10/27, grouped by week. Current weekly streak is 17 weeks.</desc>
   <style>
     .title { fill: #c0caf5; font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .subtitle { fill: #7dcfff; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -9,7 +9,7 @@
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent 12 Weeks</text>
-  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2174 contributions · 8/9 - 10/26</text>
+  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 2340 contributions · 8/9 - 10/27</text>
   <line x1="48" y1="82" x2="772" y2="82" class="grid" />
   <line x1="48" y1="137" x2="772" y2="137" class="grid" />
   <line x1="48" y1="192" x2="772" y2="192" class="grid" />
@@ -60,17 +60,17 @@
       <text x="560.8" y="218" text-anchor="middle" class="axis">W40</text>
     </g>
     <g>
-      <title>W41 (10/11): 1 contributions</title>
+      <title>W41 (10/11): 12 contributions</title>
       <rect x="605.5" y="184.0" width="31.4" height="8.0" rx="6" fill="#414868" />
       <text x="621.2" y="218" text-anchor="middle" class="axis">W41</text>
     </g>
     <g>
-      <title>W42 (10/18): 1 contributions</title>
-      <rect x="665.8" y="184.0" width="31.4" height="8.0" rx="6" fill="#414868" />
+      <title>W42 (10/18): 93 contributions</title>
+      <rect x="665.8" y="181.0" width="31.4" height="11.0" rx="6" fill="#414868" />
       <text x="681.5" y="218" text-anchor="middle" class="axis">W42</text>
     </g>
     <g>
-      <title>W43 (10/25): 1 contributions</title>
+      <title>W43 (10/25): 64 contributions</title>
       <rect x="726.1" y="184.0" width="31.4" height="8.0" rx="6" fill="#414868" />
       <text x="741.8" y="218" text-anchor="middle" class="axis">W43</text>
     </g>
