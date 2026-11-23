@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
   <title id="title">Recent 12 Weeks Contributions</title>
-  <desc id="desc">913 GitHub contributions from 9/6 to 11/22, grouped by week. Current weekly streak is 0 weeks.</desc>
+  <desc id="desc">1016 GitHub contributions from 9/6 to 11/23, grouped by week. Current weekly streak is 17 weeks.</desc>
   <style>
     .title { fill: #c0caf5; font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .subtitle { fill: #7dcfff; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -9,7 +9,7 @@
   </style>
   <rect width="820" height="260" rx="14" fill="#1a1b27" />
   <text x="32" y="40" class="title">Recent 12 Weeks</text>
-  <text x="32" y="62" class="subtitle">0-week current streak · last 12 shown · 913 contributions · 9/6 - 11/22</text>
+  <text x="32" y="62" class="subtitle">17-week current streak · last 12 shown · 1016 contributions · 9/6 - 11/23</text>
   <line x1="48" y1="82" x2="772" y2="82" class="grid" />
   <line x1="48" y1="137" x2="772" y2="137" class="grid" />
   <line x1="48" y1="192" x2="772" y2="192" class="grid" />
@@ -65,13 +65,13 @@
       <text x="621.2" y="218" text-anchor="middle" class="axis">W45</text>
     </g>
     <g>
-      <title>W46 (11/15): 89 contributions</title>
-      <rect x="665.8" y="164.4" width="31.4" height="27.6" rx="6" fill="#9ece6a" />
+      <title>W46 (11/15): 118 contributions</title>
+      <rect x="665.8" y="155.4" width="31.4" height="36.6" rx="6" fill="#9ece6a" />
       <text x="681.5" y="218" text-anchor="middle" class="axis">W46</text>
     </g>
     <g>
-      <title>W47 (11/22): 0 contributions</title>
-      <rect x="726.1" y="190.0" width="31.4" height="2.0" rx="6" fill="#414868" />
+      <title>W47 (11/22): 74 contributions</title>
+      <rect x="726.1" y="169.1" width="31.4" height="22.9" rx="6" fill="#9ece6a" />
       <text x="741.8" y="218" text-anchor="middle" class="axis">W47</text>
     </g>
 </svg>
